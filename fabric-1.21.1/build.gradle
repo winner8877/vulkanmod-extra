@@ -25,7 +25,7 @@ configurations {
 
 dependencies {
     modImplementation "net.fabricmc:fabric-loader:$rootProject.fabric_loader_version"
-    modImplementation "net.fabricmc.fabric-api:fabric-api:$rootProject.fabric_api_version_1_21_1"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:$rootProject.fabric_api_version_1_21_10"
 
     // VulkanMod dependency from Modrinth Maven
     modImplementation "maven.modrinth:vulkanmod:$rootProject.vulkanmod_version"
@@ -41,8 +41,8 @@ dependencies {
 }
 
 // Version-specific properties for this subproject
-project.ext.minecraft_version = rootProject.minecraft_version_1_21_1
-project.ext.yarn_mappings = rootProject.yarn_mappings_1_21_1
+project.ext.minecraft_version = rootProject.minecraft_version_1_21_10
+project.ext.yarn_mappings = rootProject.yarn_mappings_1_21_10
 
 // Override loom configuration to use version-specific minecraft and mappings
 loom {
