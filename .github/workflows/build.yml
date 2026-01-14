@@ -39,7 +39,7 @@ jobs:
           gradle-home-cache-cleanup: false
           
       - name: Build VulkanMod Extra
-        run: ./gradlew build
+        run: ./gradlew build -Pminecraft_version=1.21.10
         
         
       - name: Upload build artifacts
